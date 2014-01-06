@@ -1,0 +1,320 @@
+/*
+Template Name: ChromExtension	
+Theme URI: http://www.cardeo.ca	
+Description: a css three website template
+Version: 1.1
+Author: Tom Swartz
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/***------------------------------------
+ALL
+------------------------------------***/
+
+body {
+ font-family: verdana, helvetica, arial, sans-serif;
+ font-size: 12pt;
+ line-height: 1.5;
+ color: #333;
+ padding: 0;
+ margin: 0;
+ text-align: left;
+ vertical-align: top;
+ border: 0;
+/* background: url(images/grade3.jpg) top left repeat-x; */
+ background-color: #012f63;
+ min-width: 400px;
+}
+
+img {
+ border: 0;
+}
+
+a, a:link, a:visited {
+ color: #333;
+ text-decoration: underline;
+ border: 0;
+}
+
+a:hover {
+ color: #a2905e;
+ text-decoration: underline;
+ border: 0;
+}
+
+ul {
+ margin: 0;
+ padding: 0px 0px 10px 20px;
+ list-style: none;
+ border: 0;
+}
+
+li {
+ list-style-image: url('images/bulletarrow1.png');
+}
+
+p {
+ padding-bottom: 10px;
+ margin: 0;
+}
+
+ol li {
+ list-style-type: decimal;
+}
+
+/***------------------------------------
+TYPE
+------------------------------------***/
+
+@font-face {  
+ font-family: 'Ubuntu-R';  
+ src: url('Ubuntu-R.ttf');  
+}  
+
+.font {  
+ font-family: Ubuntu-R;   
+}
+
+.font-shadow {     
+ text-shadow: 0 1px 3px #333;  
+}
+
+h1 { 
+/* font-size: 2.25em;*/
+ font-size: 2em;
+ color: #fff;
+ margin: 0px 0px 0px 10px;
+}
+
+h1 span { 
+ color: #a2905e;
+}  
+
+h2 { 
+ font-size: 1.5em;
+ color: #fff;
+}
+
+h3 { 
+/* font-size: 1.5em;*/
+ font-size: 1.5em;
+ color: #aca589;
+ line-height: 1em;
+ padding-bottom: 10px;
+}
+
+h4 {
+ font-size: 1.125em;
+}
+
+h5 {
+ font-size: 1em;
+}
+
+h6 {
+ font-size: 0.75em;
+}
+
+strong { 
+ font-weight: bold;
+}
+
+/***------------------------------------
+LAYOUT
+------------------------------------***/
+
+#container { 
+ margin: 0 auto;
+}
+
+#top { 
+ margin: 0 auto;  
+}
+
+#header { 
+ width: 100%;
+ margin: 0 auto;
+}
+
+#title {
+ float: center;
+}
+
+#nav {
+ float: right;
+/* padding-top: 10px;*/
+}
+
+#nav ul {
+ font-size: 1em;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+#nav li { 
+ font-size: 1em;
+ margin-left: 10px;
+ float: left;
+ list-style-type: none;
+ list-style-image: none;
+}
+
+#bullets {
+ float: center;
+/* padding-top: 10px;*/
+}
+
+#bullets ul {
+/* list-style-type: none;*/
+/* margin: 0;*/
+/* padding: 0;*/
+/* border: 0;*/
+}
+
+#bullets li { 
+/* margin-left: 10px;*/
+ font-size: 2em;
+/* float: left;*/
+ list-style-type: square;
+}
+
+.subbullet {
+ list-style-type: circle;
+}
+
+#descrip {
+ clear: both;
+ width: 100%;
+ text-align: center;
+ margin: 0 auto;
+ padding-top: 20px;
+ padding-bottom: 40px;
+}
+
+#columns {
+ /* background: #fff url(images/grade.gif) top left repeat-x; */
+ background-color: #1a82f7;
+ background-image: url(images/fallback-gradient.png);
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BDBDBD), to(#FFFFFF));
+ background-image: -webkit-linear-gradient(top, #BDBDBD, #FFFFFF);
+ background-image:    -moz-linear-gradient(top, #BDBDBD, #FFFFFF);
+ background-image:     -ms-linear-gradient(top, #BDBDBD, #FFFFFF);
+ background-image:      -o-linear-gradient(top, #BDBDBD, #FFFFFF);
+ width: 100%;
+ float: left;
+ border-top: 1px solid #fff;
+}
+
+#main {
+ width: 100%;
+ margin: 0 auto;
+ padding-top: 10px;
+ padding-bottom: 5px;
+}
+
+.col {
+ width: 75%;
+ margin-left: 10%;
+ margin-right: 10%;
+ float: center;
+ height: 90%;
+}
+
+.col2 {
+ width: 25%;
+ margin-right: 30px;
+ float: right;
+ height: 90%;
+}
+
+.bcol {
+ width: 260px;
+ margin-right: 30px;
+ margin-top: 10px;
+ float: center;
+ height: 130px;
+}
+
+.bcol2 {
+ width: 260px;
+ margin-top: 10px;
+ float: right;
+ height: 130px;
+}
+
+.box {  
+ border-radius: 10px;  
+ -moz-border-radius: 10px;  
+ -webkit-border-radius: 10px; 
+ background-color: #fff; 
+ padding: 20px;
+}
+
+.navbox {  
+ border-radius: 10px;  
+ -moz-border-radius: 10px;  
+ -webkit-border-radius: 10px; 
+ background-color: #a2905e; 
+ padding: 5px 10px;
+}   
+
+.linkbox {  
+ border-radius: 10px;  
+ -moz-border-radius: 10px;  
+ -webkit-border-radius: 10px;
+ background-color: #9F7DB0;
+ font-size: 2.25em;
+ padding: 5px 10px;
+}   
+
+#footer {
+ width: 100%;
+ margin: 0 auto;
+ text-align: right;
+ font-size: 2em;
+ padding-top: 40px;
+ clear: both;
+}
+
+.footerbox {  
+ border-radius: 10px;  
+ -moz-border-radius: 10px;  
+ -webkit-border-radius: 10px; 
+ background-color: #aca589;; 
+ padding: 20px;
+}
+
+
+/***------------------------------------
+LINKS
+------------------------------------***/
+
+#nav a, #nav a:link, #nav a:visited {
+ text-decoration: none;
+ color: #fff;
+}
+
+#nav a:hover {
+ text-decoration: none;
+ color: #dae0b2;
+}
