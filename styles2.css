@@ -84,36 +84,36 @@ ol li {
 TYPE
 ------------------------------------***/
 
-@font-face {  
- font-family: 'Ubuntu-R';  
- src: url('Ubuntu-R.ttf');  
-}  
-
-.font {  
- font-family: Ubuntu-R;   
+@font-face {
+ font-family: 'Ubuntu-R';
+ src: url('Ubuntu-R.ttf');
 }
 
-.font-shadow {     
- text-shadow: 0 1px 3px #333;  
+.font {
+ font-family: Ubuntu-R;
 }
 
-h1 { 
+.font-shadow {
+ text-shadow: 0 1px 3px #333;
+}
+
+h1 {
 /* font-size: 2.25em;*/
  font-size: 2em;
  color: #fff;
  margin: 0px 0px 0px 10px;
 }
 
-h1 span { 
+h1 span {
  color: #a2905e;
-}  
+}
 
-h2 { 
+h2 {
  font-size: 1.5em;
  color: #fff;
 }
 
-h3 { 
+h3 {
 /* font-size: 1.5em;*/
  font-size: 1.5em;
  color: #aca589;
@@ -133,7 +133,7 @@ h6 {
  font-size: 0.75em;
 }
 
-strong { 
+strong {
  font-weight: bold;
 }
 
@@ -141,15 +141,15 @@ strong {
 LAYOUT
 ------------------------------------***/
 
-#container { 
+#container {
  margin: 0 auto;
 }
 
-#top { 
- margin: 0 auto;  
+#top {
+ margin: 0 auto;
 }
 
-#header { 
+#header {
  width: 100%;
  margin: 0 auto;
 }
@@ -171,7 +171,7 @@ LAYOUT
  border: 0;
 }
 
-#nav li { 
+#nav li {
  font-size: 1em;
  margin-left: 10px;
  float: left;
@@ -191,7 +191,7 @@ LAYOUT
 /* border: 0;*/
 }
 
-#bullets li { 
+#bullets li {
 /* margin-left: 10px;*/
  font-size: 2em;
 /* float: left;*/
@@ -234,7 +234,7 @@ LAYOUT
 
 .col {
  width: 75%;
- margin-left: 10%;
+ margin-left: 8%;
  margin-right: 10%;
  float: center;
  height: 90%;
@@ -262,30 +262,33 @@ LAYOUT
  height: 130px;
 }
 
-.box {  
- border-radius: 10px;  
- -moz-border-radius: 10px;  
- -webkit-border-radius: 10px; 
- background-color: #fff; 
- padding: 20px;
+.box {
+ border-radius: 10px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ background-color: #fff;
+ padding-top: 20px;
+ padding-bottom: 15px;
+ padding-left: 20px;
+ padding-right: 20px;
 }
 
-.navbox {  
- border-radius: 10px;  
- -moz-border-radius: 10px;  
- -webkit-border-radius: 10px; 
- background-color: #a2905e; 
+.navbox {
+ border-radius: 10px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ background-color: #a2905e;
  padding: 5px 10px;
-}   
+}
 
-.linkbox {  
- border-radius: 10px;  
- -moz-border-radius: 10px;  
+.linkbox {
+ border-radius: 10px;
+ -moz-border-radius: 10px;
  -webkit-border-radius: 10px;
  background-color: #9F7DB0;
  font-size: 2.25em;
  padding: 5px 10px;
-}   
+}
 
 #footer {
  width: 100%;
@@ -296,11 +299,11 @@ LAYOUT
  clear: both;
 }
 
-.footerbox {  
- border-radius: 10px;  
- -moz-border-radius: 10px;  
- -webkit-border-radius: 10px; 
- background-color: #aca589;; 
+.footerbox {
+ border-radius: 10px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ background-color: #aca589;
  padding: 20px;
 }
 
