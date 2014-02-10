@@ -267,8 +267,8 @@ LAYOUT
  -moz-border-radius: 10px;
  -webkit-border-radius: 10px;
  background-color: #fff;
- padding-top: 20px;
- padding-bottom: 15px;
+ padding-top: 10px;
+ padding-bottom: 1px;
  padding-left: 20px;
  padding-right: 20px;
 }
