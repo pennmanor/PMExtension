@@ -1,7 +1,7 @@
 {
  "name": "Penn Manor Speed Dial",
  "manifest_version": 2,
- "version": "1.7.1",
+ "version": "1.8",
  "description": "Penn Manor Speed Dial Extension.",
 "icons": {
  "128": "icon.png"
