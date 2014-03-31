@@ -62,7 +62,7 @@ a:hover {
 
 ul {
  margin: 0;
- padding: 0px 0px 10px 20px;
+ padding: 0px 0px 10px 0px;
  list-style: none;
  border: 0;
 }
@@ -118,7 +118,7 @@ h3 {
  font-size: 1.5em;
  color: #aca589;
  line-height: 1em;
- padding-bottom: 10px;
+ padding-bottom: 0px;
 }
 
 h4 {
@@ -229,7 +229,7 @@ LAYOUT
  width: 100%;
  margin: 0 auto;
  padding-top: 10px;
- padding-bottom: 5px;
+ padding-bottom: 2px;
 }
 
 .col {
